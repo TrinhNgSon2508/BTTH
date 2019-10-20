@@ -1,0 +1,283 @@
+.vungngoai{
+	width: 80%;
+	height: auto;
+	background: gray;
+	margin: 0 auto;
+	position: relative;
+}
+.vungngoai .bx{
+	width: 100%;
+	height: 60px;
+	background: red;
+}
+.bx .logo{
+	width: 15%;
+	height: 100%;
+	background: white;
+	float: left;
+	margin-right: 1.5rem; 
+}
+.bx .menu{
+	width: 100%;
+	height: 100%;
+	background: #343841;
+	margin: 0 auto;
+}
+.menu ul{
+	width: 100%;
+	height: 100%;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	/*background: red;*/
+}
+.menu ul li{
+	float: left;
+	width: 9%;
+	display: block;
+	/*background: blue;*/
+	height: 60px;
+}
+.menu ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	/*background: yellow;*/
+	text-decoration: none;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 1.2rem;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+
+}
+.menu ul li.active a{
+	color: #09b6a1;
+}
+.menu ul li:hover a{
+	color: red;
+	background: white;
+}
+.vungngoai .anh{
+	width: 100%;
+	height: 280px;
+	background: red;
+	position: relative;
+}
+.vungngoai .anh img{
+	width: 100%;
+	height: 100%;
+}
+.vungngoai .anh ul{
+	margin 0;
+	padding: 0;
+	list-style: none;
+
+}
+.vungngoai .anh ul li{
+	display: block;
+	width: 30px;
+	height: 30px;
+/*	background: black;*/
+
+}
+.vungngoai .anh ul li a {
+	margin-top: -60px;
+	text-decoration: none;
+	display: block;
+	height: 100px;
+	width: 100px;
+	/*background: green;*/
+}
+.vungngoai .anh ul li.next{
+	display: block;
+	width: 100px;
+	height: 100px;
+	/*background: green;*/
+	position: absolute;
+	right: 5%;
+	top:30%;
+	background-image: url(icon/next.png);
+	background-size: 100px 100px;
+	text-indent: -9999px;
+
+}
+.vungngoai .anh ul li.prev{
+	display: block;
+	width: 100px;
+	height: 100px;
+	/*background: green;*/
+	position: absolute;
+	left: 5%;
+	top: 30%;
+	background-image: url(icon/prev.png);
+	background-size: 100px 100px;
+	text-indent: -9999px;
+}
+.vungngoai .anh h3{
+	color: #b6b5c9;
+	font-size: 30px;
+	text-transform: uppercase;
+	position: absolute;
+	top: 10%;
+	left: 28%;
+}
+.vungngoai .anh p{
+	width: 65%;
+	text-align: center;
+	font-size: 18px;
+	color: #b6b5c9;
+	position: absolute;
+	top: 30%;
+	left: 18%;
+}
+.vungngoai .anh .a{
+	width: 15%;
+	height: 40px;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 0.8rem;
+	background: #fa8661;
+	font-size: 25px;
+	position: absolute;
+	top: 70%;
+	left: 42%;
+}
+.vungngoai .anh .a a{
+	text-decoration: none;
+	color: white;
+	width: 100%;
+	height: 100%;
+}
+.vungngoai .anh .a a:hover  {
+	color: cyan;
+}
+.vungngoai .nd{
+	width: 100%;
+	height: 250px;
+	background: #f4f4f4;
+}
+.vungngoai .nd .bx{
+	width: 20%;
+	height: 100%;
+	background: #f4f4f4;
+	margin-left: 2.5rem;
+	float: left;
+	
+}
+.vungngoai .nd .bx .tron{
+	width: 100px;
+	height: 100px;
+	background: #218fc0;
+	border-radius: 50%;
+	margin: 1rem 0  0 3rem;
+}
+.vungngoai .nd .bx .tron img{
+	width: 60%;
+	height: 60%;
+	margin: 1.2rem;
+	
+}
+.vungngoai .nd .bx a{
+	text-decoration: none;
+	color: black;
+}
+.vungngoai .nd .bx a:hover{
+	color: red;
+}
+.vungngoai .kh{
+	display: block;
+	width: 100%;
+	height: 500px;
+	background: #2e3e4e;
+	margin: 0;
+	position: relative;
+}
+
+.vungngoai .kh .a1 a{	
+	color: white;
+}
+.vungngoai .kh .a1 a:hover{
+	color: yellow;
+}
+.vungngoai .kh .bx2{
+	width: 100%;
+	height: 200px;
+	
+}
+.vungngoai .kh .bx2 .b1{
+	float: left;
+	width: 26.4%;
+	height: 100%;
+	/*background: gray;*/
+	margin-left: 6rem;
+	margin-bottom: 10px;
+	position: relative;
+}
+.vungngoai .kh .bx2 .b2{
+	float: left;
+	width: 26.4%;
+	height: 100%;
+	/*background: gray;*/
+	margin-left: 6rem;
+	position: relative;
+}
+
+.vungngoai .of{
+	display: block;
+	width: 100%;
+	height: 350px;
+	background: #f4f4f4;
+	position: relative;
+}
+.vungngoai .of .b3{
+	width: 100%;
+	height: 200px;
+	/*background: red;*/
+	position: absolute;
+	top: 45%;
+}
+.vungngoai .of .b3 .bc{
+	width: 18%;
+	height: 100%;
+	/*background: green;*/
+	margin-left: 5rem;
+	float: left;
+}
+.vungngoai .of .b3 a.lk{
+	color: white;
+	background: #2290c0;
+}
+.vungngoai .of .b3 a.lk:hover{
+	color: yellow;
+	background: red;
+	transition: 1s
+}
+.vungngoai .ll{
+	width: 100%;
+	height: 350px;
+	background: #2e3e4e;
+}
+.vungngoai .ll .b1{
+	display: block;
+	padding-top: 2rem;
+	box-sizing: border-box;
+	float: left;
+	width: 20%;
+	height: 100%;
+	/*background: green	;*/
+	margin-left: 7rem;
+}
+.vungngoai .ll .b1 form a{
+	background:  #2290c3;
+	padding: 0.5rem;
+	color: white;
+}
+.vungngoai .ll .b1 form a:hover{
+	color:  #2290c3;
+	background: white;
+	transition: 1s;
+}
+
