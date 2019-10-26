@@ -1,0 +1,257 @@
+.khung{
+	width: 85%;
+	height: auto;
+	margin: 0 auto;
+}
+.khung img{
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+.khung .menu{
+  top: 20px;
+	width: 60%;
+	height: 70px;
+	left: 300px;
+	/*background: red;*/
+	position: absolute;
+	}
+	.khung .menu img{
+		float: right;
+		width: 25px;
+		height: 25px;
+		margin-right: 10px;
+		margin-top: 10px;
+	}
+	.khung .menu p{
+		float: right;
+		color: white;
+		font-size: 20px;
+		margin-top: 10px;
+	}
+.khung .menu .logo{
+	width: 20%;
+	height: 100%;
+	float: left;
+	/*background: blue;*/
+}
+.khung .menu .logo img{
+width: 25%;
+height: 40px;
+float: left;
+}
+.khung .menu .logo p{
+	float: left;
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 15px;
+}
+.khung .menu  ul li{
+	float: left;
+	margin-left: 30px;
+	list-style-type: none;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 10px;
+	font-weight: bold;
+	color: white;
+	}
+	.khung .menu  ul li:hover{
+		color: red;
+	}
+.khung h1{
+	color: white;
+	position: absolute;
+	top: 150px;
+	font-size: 45px;
+	left: 300px;
+	transition: 1s ease;
+}
+.khung h2{
+	color: white;
+	position: absolute;
+	top: 250px;
+	font-size: 45px;
+	left: 300px;
+	font-weight: normal;
+}
+.khung .menu .tim{
+	color: #f141fa;
+}
+.khung .o1{
+	width: 200px;
+	height: 30px;
+	border-radius:  25px;
+	background: #0c0224;
+	position: absolute;
+	top: 370px;
+	padding-top: 10px;
+	left: 300px;
+	transition: 1s ease;
+}.khung .o1 a{
+	margin-left: 10px;
+	text-decoration: none;
+	color: white;
+	padding-top: 10px;
+
+}
+.khung .o2{
+	width: 120px;
+	height: 30px;
+	border-radius: 25px;
+	background: #0c0224;
+	position: absolute;
+	top: 370px;
+	padding-top: 10px;
+	left: 550px;
+	transition: 1s ease;
+}
+.khung .o2 a{
+	margin-left: 10px;
+	text-decoration: none;
+	color: white;
+	padding-top: 10px;
+}
+.vungngoai{
+	width: 85%;
+	height: 650px;
+	/*background: gray;*/
+	margin: 0 auto;
+}
+.vungngoai .bc{
+	width: 100%;
+	height: 200px;
+	background-image: linear-gradient(to right, #c92063 , #161c68);
+	position: relative;
+}
+.bc h3{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	padding-top: 2rem;
+}
+.bc p{
+	text-align: center;
+	color: #ffdeff;
+	font-size: 20px;
+	margin: 0
+}
+.bc a.son {
+	width: 25%;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #0a1557;
+	padding: 0.8rem;
+	border-radius: 50px;
+	position: absolute;
+	top: 60%;
+	left: 37%;
+	color: white;
+	transition: 1s ease; 
+}
+.bc a.son h3{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	transition: 0.5s ease;
+}
+.bc a.son span{
+	color: #a92f7a;
+}
+.bc a:hover h3{
+	color: red;
+}
+.bc a:hover span{
+	color: red;
+}
+.bc a:hover{
+	background: cyan;
+}
+.vungngoai .bcc{
+	width: 100%;
+	height: 350px;
+	/*background: green;*/
+	position: relative;
+}
+.bcc .con{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	/*background: lightgray;*/
+}
+.bcc .con h2{
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #292971;	
+	padding-top: 1.5rem;
+	font-size: 25px;
+	font-weight: bold;
+}
+.bcc .con nav {
+  	padding: 24px;
+  	text-align: center;
+  	font-family: Raleway;
+  /*box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);*/
+}
+/*#nav-1 {
+  background: #3fa46a;
+}*/
+ 
+.link-1 {
+  	transition: 0.5s ease;
+  	/*background: lightgray;*/
+  	color: black;
+  	font-size: 20px;
+  	text-decoration: none;
+  	padding: 20px 0;
+  	margin: 0 20px;
+}
+.link-1:hover {
+	color: #a92f7a;
+ 	border-bottom: 4px solid #120d43;
+  	padding: 6px 0;
+}
+.bcc .con .line{
+	width: 80%;
+	height: 1px;
+	background: gray;
+	margin-top: -18px;
+	z-index: 100;
+	position: absolute;
+}
+.bcc .con .ss{
+	width: 100%;
+	height: 227px;
+	/*background: blue;*/
+}
+.bcc .con .ss .bxx{
+	width: 22.2%;
+	height: 100%;
+	background-image: linear-gradient(to right, #c92063 , #161c68);
+	float: left;
+}
+.bcc .con .ss .bxx h4{
+	margin:0;
+	margin-top: 0.5rem;
+}
+.bcc .con .ss .bxx a.a1{
+	text-decoration: none;
+	color: black;
+	transition: 1s;
+}
+.bcc .con .ss .bxx a.a1:hover{
+	color: lightgray;
+}
+.vungngoai a.a9{
+	text-align: center;
+	color: #05194c;
+	transition: 1s;
+}
+.vungngoai a.a9:hover{
+	color: #a92f7a;
+}
